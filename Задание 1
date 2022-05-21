@@ -1,0 +1,6 @@
+a = "hello"
+b = "world"
+print(f"{a}, {b}")
+phone = int(input("Введите номер: "))
+phone_1 = int(input("Введите новый номер: "))
+print(f"Вы ввели {phone} и {phone_1}")

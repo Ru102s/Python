@@ -1,0 +1,12 @@
+while True:
+    a = 1
+    b = float(input("первый день: "))
+    c = float(input("финальный день: "))
+    if b <= 0 or c < 0:
+        print("Первый день должне быть больше 0")
+    else:
+        while b < c:
+            b += b * 0.1
+            a += 1
+        print(f"Результат будет на {a} день")
+        break
